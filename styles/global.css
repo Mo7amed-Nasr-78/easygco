@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Roboto", system-ui;
+}
+
+:root {
+
+    /* -----Colors----- */
+    --primary_color: #FFF;
+    --secondary_color: #CBE0CC;
+    --accent_color: #DD122D;
+    --heading_color: #000000;
+    --paragraph_color: #474747;
+
+    /* -----Radius----- */
+    --radius_3: 3px;
+    --radius_5: 5px;
+    --radius_10: 10px;
+    --radius_15: 15px;
+    --radius_20: 20px;
+    --radius_25: 25px;
+    --radius_30: 30px;
+
+    /* -----Trans----- */
+    --trans_03: all 0.3s ease;
+    --trans_05: all 0.5s ease;
+    --trans_08: all 0.8s ease
+
+}
+
+/* Global Styles */
+body {
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+}
+
+/* Media Queries */
+
+/* Extra Small */
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Small Screen */
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+/* medium Screen */
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+/* XLarge Screen */
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+/* XXlarge Screen */
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
